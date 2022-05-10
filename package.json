@@ -1,0 +1,25 @@
+{
+  "name": "Ceril-joseph",
+  "version": "1.0.0",
+  "description": "- 👋 Hi, I’m @Ceril-joseph\r - 👀 I’m interested in testing\r - 🌱 I’m currently learning cypress testing\r - 📫 How to reach me ...josephceril04@gmail.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "./node_modules/.bin/cypress open",
+    "cypress:run": "./node_modules/.bin/cypress run --spec **/*.specs.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ceril-joseph/Ceril-joseph.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ceril-joseph/Ceril-joseph/issues"
+  },
+  "homepage": "https://github.com/Ceril-joseph/Ceril-joseph#readme",
+  "devDependencies": {
+    "cypress": "^9.5.4"
+  }
+}
