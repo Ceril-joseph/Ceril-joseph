@@ -3,7 +3,7 @@
 
 describe('update details of a user',()=>{
 
-    let accessToken = '57216e2636099b3d833e095221888b5cbea86b1b363d36afd4f6656af68fdebd'
+    let accessToken = '993385d3cb4a504ec6621e197ab8356c52ad7628612c13843a5e78ed648cda2'
     let randomtext=""
     let testEmail=""
 
@@ -22,7 +22,7 @@ describe('update details of a user',()=>{
             body:{
                 "name": 'Ceril Joseph',
                 "gender": 'male',
-                "email": 'putapitest23@gmail.com',
+                "email": 'putapitest231@gmail.com',
                 "status": 'active'
 
             }
@@ -31,7 +31,7 @@ describe('update details of a user',()=>{
             expect(res.status).to.eq(201),
             expect(res.body.data).has.property("name",'Ceril Joseph')
             expect(res.body.data).has.property("gender",'male')
-            expect(res.body.data).has.property("email",'putapitest23@gmail.com')
+            expect(res.body.data).has.property("email",'putapitest231@gmail.com')
             expect(res.body.data).has.property("status",'active')
         }).then((res)=>{
             const userId = res.body.data.id
@@ -44,7 +44,7 @@ describe('update details of a user',()=>{
             body:{
                 "name": 'Ceril Updated Joseph',
                 "gender": 'male',
-                "email": 'putapitestupdated23@gmail.com',
+                "email": 'putapitestupdated231@gmail.com',
                 "status": 'active'
 
             }
@@ -54,7 +54,7 @@ describe('update details of a user',()=>{
                 expect(res.status).to.eq(200),
                 expect(res.body.data).has.property("name",'Ceril Updated Joseph')
                 expect(res.body.data).has.property("gender",'male')
-                expect(res.body.data).has.property("email",'putapitestupdated23@gmail.com')
+                expect(res.body.data).has.property("email",'putapitestupdated231@gmail.com')
                 expect(res.body.data).has.property("status",'active')
             })
         }).then((res)=>{
@@ -70,7 +70,7 @@ describe('update details of a user',()=>{
                 expect(res.status).to.eq(200),
                 expect(res.body.data).has.property("name",'Ceril Updated Joseph')
                 expect(res.body.data).has.property("gender",'male')
-                expect(res.body.data).has.property("email",'putapitestupdated23@gmail.com')
+                expect(res.body.data).has.property("email",'putapitestupdated231@gmail.com')
                 expect(res.body.data).has.property("status",'active')
             })
         })

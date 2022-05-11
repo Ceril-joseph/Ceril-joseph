@@ -2,7 +2,7 @@
 
 describe('get api user tests', ()=>{   // "describe" block is from mocha
 
-    let accessToken = '346827796d08fb91c1ba8d94b33af090891413cb0c5e3d953fe7871a940861d1'
+    let accessToken = 'dd32700a96a1bdc407103f7f93a4bd2875ff41a44e23b5fe557f7bea9e81260d'
     
 
     it.only('get users', ()=>{    // "it" block is from mocha
